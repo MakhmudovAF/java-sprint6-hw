@@ -3,7 +3,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CustomLinkedList<T> {
+public class CustomLinkedList {
     private Node tail;
     private Node head;
     private int size;

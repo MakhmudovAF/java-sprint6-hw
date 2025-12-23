@@ -1,5 +1,7 @@
 package model;
 
+import enums.Status;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +9,7 @@ public class Epic extends Task {
     protected List<Integer> subtaskIds;
 
     public Epic(String name, String description) {
-        super(name, description, "NEW");
+        super(name, description, Status.NEW);
         this.subtaskIds = new ArrayList<>();
     }
 

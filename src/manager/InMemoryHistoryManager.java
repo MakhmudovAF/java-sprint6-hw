@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 public class InMemoryHistoryManager implements HistoryManager {
-    private final CustomLinkedList<Task> history = new CustomLinkedList<>();
+    private final CustomLinkedList history = new CustomLinkedList();
     private final Map<Integer, Node> historyMap = new HashMap<>();
 
     @Override
